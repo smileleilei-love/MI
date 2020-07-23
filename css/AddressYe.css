@@ -1,0 +1,202 @@
+.site-address{
+    width: 100%;
+    height: 460px;
+    background-color: #ffffff;
+}
+.address-box{
+    position: relative;
+}
+.address-img{
+    width: 100%;
+}
+.address-slide{
+    width: 234px;
+    height: 420px;
+    background-color: rgba(105,101,101,.6);
+    position: absolute;
+    font-size: 14px;
+    top: 0;
+    left: 0;
+    padding: 20px 0;
+}
+.address-slide>ul>li{
+    height: 42px;
+    line-height: 42px;
+    padding-left: 30px;
+    text-align: left;
+    cursor: pointer;
+}
+.address-slide>ul>li:hover{
+    background-color: #ff6700;
+}
+.address-slide>ul>li>a{
+    color: #fff;
+}
+.address-slide i{
+    float: right;
+    margin-right: 20px;
+    color: #e0e0e0;
+    font-weight: 900;
+    font-size: 18px;
+}
+.address-slide-list{
+    width: 992px;
+    height: 460px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-left: none;
+    box-shadow: 0 8px 16px rgba(0,0,0,.18);
+    position: absolute;
+    top: 0;
+    left: 234px;
+    display: none;
+    padding-top: 2px;
+    z-index: 550;
+}
+
+.address-slide li:hover>.address-slide-list{
+    display: block;
+}
+.address-slide-list>ul{
+    float: left;
+    width: 247.75px;
+}
+.address-slide-list li{
+    width: 100%;
+    height: 76px;
+    line-height: 76px;
+}
+.address-slide-list img{
+    width: 40px;
+    margin-right: 12px;
+    margin-left: 20px;
+}
+.address-slide-list a{
+    color: #333;
+}
+.address-slide-list li:hover>a{
+    color: #ff6700;
+}
+.address-prev,.address-next{
+    width: 41px;
+    height: 69px;
+    position: absolute;
+    top: 50%;
+    margin-top: -34.5px;
+    background-image: url("../images/icon-slides.png");
+    cursor: pointer;
+}
+.address-prev{
+    left: 234px;
+    background-position: -83px;
+}
+.address-prev:hover{
+    background-position: 0;
+}
+.address-next{
+    right: 0;
+    background-position: -124px;
+}
+.address-next:hover{
+    background-position: -42px;
+}
+.address-btn{
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}
+.address-btn>li{
+    width: 6px;
+    height: 6px;
+    border: 2px solid rgba(255,255,255,.3);
+    background-color: rgba(0,0,0,.4);
+    border-radius: 50%;
+    margin: 0 4px;
+    float: left;
+    cursor: pointer;
+}
+.address-btn>.address-btn-active{
+    border-color: rgba(0,0,0,.4);
+    background-color: rgba(255,255,255,.3);
+}
+/*-----------------------------------*/
+.address-slide-list-last{
+    width: 774px;
+    height: 460px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-left: none;
+    box-shadow: 0 8px 16px rgba(0,0,0,.18);
+    position: absolute;
+    top: 0;
+    left: 234px;
+    display: none;
+    padding-top: 2px;
+    z-index: 560;
+}
+.address-slide-list-last>ul{
+    float: left;
+    width: 247.75px;
+}
+.address-slide-list-last li{
+    width: 100%;
+    height: 76px;
+    line-height: 76px;
+}
+.address-slide-list-last img{
+    width: 40px;
+    margin-right: 12px;
+    margin-left: 20px;
+}
+.address-slide-list-last a{
+    color: #333;
+}
+.address-slide-list-last li:hover>a{
+    color: #ff6700;
+}
+.address-slide li:hover>.address-slide-list-last{
+    display: block;
+}
+
+/*-----------------------------------------------*/
+
+.address-slide-list-three{
+    width: 496px;
+    height: 460px;
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    box-sizing: border-box;
+    border-left: none;
+    box-shadow: 0 8px 16px rgba(0,0,0,.18);
+    position: absolute;
+    top: 0;
+    left: 234px;
+    display: none;
+    padding-top: 2px;
+    z-index: 553;
+}
+.address-slide-list-three>ul{
+    float: left;
+    width: 247.75px;
+}
+.address-slide-list-three li{
+    width: 100%;
+    height: 76px;
+    line-height: 76px;
+}
+.address-slide-list-three img{
+    width: 40px;
+    margin-right: 12px;
+    margin-left: 20px;
+}
+.address-slide-list-three a{
+    color: #333;
+}
+.address-slide-list-three li:hover>a{
+    color: #ff6700;
+}
+.address-slide li:hover>.address-slide-list-three{
+    display: block;
+}
